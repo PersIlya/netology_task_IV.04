@@ -1,4 +1,5 @@
-# Домашнее задание к занятию 11 «Teamcity»
+## <p style="text-align: center;">ОТЧЕТ</p> <p style="text-align: center;">по домашним заданиям к занятию «Teamcity»</p>
+## <p style="text-align: right;">Выполнил: студент Порсев И.С.</p>
 
 ## Подготовка к выполнению
 
@@ -8,6 +9,14 @@
 4. Авторизуйте агент.
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
+
+>по пунктам 1-3
+![localImage](./screen_IV.00_1.png)  
+>по пункту 4
+![localImage](./screen_IV.00_4.png)  
+>по пункту 6
+![localImage](./screen_IV.00_6.png)  
+![localImage](./Yes.png)
 
 ## Основная часть
 
