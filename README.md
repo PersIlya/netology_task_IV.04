@@ -25,8 +25,12 @@
 4. Поменяйте условия сборки: если сборка по ветке `main`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
 ![localImage](./.screenshots/screen_IV.00_basic_4.png)
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
+![localImage](./.screenshots/screen_IV.00_basic_5.png)
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
-7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+![localImage](./.screenshots/screen_IV.00_basic_6.png)
+7. Запустите сборку по main, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+![localImage](./.screenshots/screen_IV.00_basic_7.png)
+![localImage](./.screenshots/screen_IV.00_basic_7.1.png)
 8. Мигрируйте `build configuration` в репозиторий.
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
