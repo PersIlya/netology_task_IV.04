@@ -6,21 +6,18 @@
 1. В Yandex Cloud создайте новый инстанс (4CPU4RAM) на основе образа `jetbrains/teamcity-server`.
 2. Дождитесь запуска teamcity, выполните первоначальную настройку.
 3. Создайте ещё один инстанс (2CPU4RAM) на основе образа `jetbrains/teamcity-agent`. Пропишите к нему переменную окружения `SERVER_URL: "http://<teamcity_url>:8111"`.
+![localImage](./screen_IV.00_1.png)  
 4. Авторизуйте агент.
+![localImage](./screen_IV.00_4.png)  
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
-
->по пунктам 1-3
-![localImage](./screen_IV.00_1.png)  
->по пункту 4
-![localImage](./screen_IV.00_4.png)  
->по пункту 6
 ![localImage](./screen_IV.00_6.png)  
 ![localImage](./Yes.png)
 
 ## Основная часть
 
 1. Создайте новый проект в teamcity на основе fork.
+![localImage](./screen_IV.00_basic_1.png)
 2. Сделайте autodetect конфигурации.
 3. Сохраните необходимые шаги, запустите первую сборку master.
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
