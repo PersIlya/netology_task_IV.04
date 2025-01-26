@@ -50,8 +50,11 @@
 ![localImage](./.screenshots/screen_IV.00_basic_7.1.png)
 ![localImage](./.screenshots/screen_IV.00_basic_7.png)
 
-8. Мигрируйте `build configuration` в репозиторий.
-9. Создайте отдельную ветку `feature/add_reply` в репозитории.
+8. Миграция `build configuration` в репозиторий.
+
+![localImage](./.screenshots/screen_IV.00_basic_8.png)
+
+9. Создание отдельной ветки `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
 12. Сделайте push всех изменений в новую ветку репозитория.
